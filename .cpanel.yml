@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tourdekonkan/public_html/propertyondiscount.keasofttech.com/
+    - /bin/cp index.html $DEPLOYPATH
